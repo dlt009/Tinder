@@ -14,6 +14,8 @@
 		6326032C208464D000BE8EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6326032A208464D000BE8EE7 /* LaunchScreen.storyboard */; };
 		63260337208464D100BE8EE7 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63260336208464D100BE8EE7 /* TinderTests.swift */; };
 		63260342208464D100BE8EE7 /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63260341208464D100BE8EE7 /* TinderUITests.swift */; };
+		632603502084658500BE8EE7 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326034F2084658500BE8EE7 /* CardsViewController.swift */; };
+		63260352208478C000BE8EE7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63260351208478C000BE8EE7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6326033D208464D100BE8EE7 /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63260341208464D100BE8EE7 /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		63260343208464D100BE8EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6326034F2084658500BE8EE7 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		63260351208478C000BE8EE7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 				63260321208464D000BE8EE7 /* AppDelegate.swift */,
 				63260323208464D000BE8EE7 /* ViewController.swift */,
 				63260325208464D000BE8EE7 /* Main.storyboard */,
+				63260351208478C000BE8EE7 /* ProfileViewController.swift */,
 				63260328208464D000BE8EE7 /* Assets.xcassets */,
+				6326034F2084658500BE8EE7 /* CardsViewController.swift */,
 				6326032A208464D000BE8EE7 /* LaunchScreen.storyboard */,
 				6326032D208464D000BE8EE7 /* Info.plist */,
 			);
@@ -261,6 +267,8 @@
 			files = (
 				63260324208464D000BE8EE7 /* ViewController.swift in Sources */,
 				63260322208464D000BE8EE7 /* AppDelegate.swift in Sources */,
+				63260352208478C000BE8EE7 /* ProfileViewController.swift in Sources */,
+				632603502084658500BE8EE7 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
